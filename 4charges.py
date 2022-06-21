@@ -20,4 +20,5 @@ plt.plot(3,-3,'ob')
 plt.plot(3,3,'oy')
 plt.grid()
 plt.show()
+#i made this because i thought there's only 1 point in a square arrangment of positive equal ccharges but as i can see there's actually 5 points with zero electric field
 
