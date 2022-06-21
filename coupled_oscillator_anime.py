@@ -24,7 +24,7 @@ def f(u,t):
     dX2=u[3]
     d2X2=-(k1/m2)*u[2]-(k2/m2)*(u[2]-u[0])
     return [dX1,d2X1,dX2,d2X2]
-t=np.linspace(0,10,1000)
+t=np.linspace(0,100,10000)
 #don't choose displacment greater than 4 because the spring length i have used is 4. if you do choose displacement greater than 4 springs willl be all over the place.
 m1_disp=2
 m2_disp=1
